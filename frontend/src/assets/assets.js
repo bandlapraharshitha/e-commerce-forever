@@ -9,6 +9,8 @@ import hero_img from './hero_img.png'
 import exchange_icon from './exchange_icon.png'
 import quality_icon from './quality_icon.png'
 import support_img from './support_img.png'
+import star_icon from './star_icon.png'
+import star_dull_icon from './star_dull_icon.png'
 import p_img1 from './p_img1.png'
 import p_img2 from './p_img2.png'
 import p_img3 from './p_img3.png'
@@ -53,6 +55,9 @@ import p_img41 from './p_img41.png'
 import p_img42 from './p_img42.png'
 import p_img43 from './p_img43.png'
 import p_img44 from './p_img44.png'
+import p_img44_2 from './p_img44_2.png'
+import p_img44_3 from './p_img44_3.png'
+import p_img44_4 from './p_img44_4.png'
 
 export const assets = {
     logo,
@@ -65,14 +70,16 @@ export const assets = {
     hero_img,
     exchange_icon,
     quality_icon,
-    support_img
+    support_img,
+    star_icon,
+    star_dull_icon
 }
 
 export const products = [
     {
         _id: "aaaa",
         name: "Women cotton casual bottom wear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 100,
         image: [p_img1],
         category: "Women",
@@ -84,7 +91,7 @@ export const products = [
     {
         _id: "aaab",
         name: "Men Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 80,
         image: [p_img2],
         category: "Men",
@@ -96,7 +103,7 @@ export const products = [
     {
         _id: "aaac",
         name: "Kids men coat Topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 60,
         image: [p_img3],
         category: "Kids",
@@ -108,7 +115,7 @@ export const products = [
     {
         _id: "aaad",
         name: "Women Round Neck casual Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 40,
         image: [p_img4],
         category: "Women",
@@ -120,7 +127,7 @@ export const products = [
     {
         _id: "aaae",
         name: "Men bottomwear cotton pant",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 30,
         image: [p_img5],
         category: "Men",
@@ -132,7 +139,7 @@ export const products = [
     {
         _id: "aaaf",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 35,
         image: [p_img6],
         category: "Kids",
@@ -144,7 +151,7 @@ export const products = [
     {
         _id: "aaag",
         name: "Women winterwear light",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 45,
         image: [p_img7],
         category: "Women",
@@ -156,7 +163,7 @@ export const products = [
     {
         _id: "aaah",
         name: "Kids cotton bottomwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 50,
         image: [p_img8],
         category: "Kids",
@@ -168,7 +175,7 @@ export const products = [
     {
         _id: "aaai",
         name: "Men Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 70,
         image: [p_img9],
         category: "Men",
@@ -180,7 +187,7 @@ export const products = [
     {
         _id: "aaaj",
         name: "Women Round Neck winter topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 90,
         image: [p_img10],
         category: "Women",
@@ -192,7 +199,7 @@ export const products = [
     {
         _id: "aaak",
         name: "Men winterwear light",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 110,
         image: [p_img11],
         category: "Men",
@@ -204,7 +211,7 @@ export const products = [
     {
         _id: "aaal",
         name: "Men round neck topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 130,
         image: [p_img12],
         category: "Men",
@@ -216,7 +223,7 @@ export const products = [
     {
         _id: "aaam",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 150,
         image: [p_img13],
         category: "Women",
@@ -228,7 +235,7 @@ export const products = [
     {
         _id: "aaan",
         name: "Men winterwear casual",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 140,
         image: [p_img14],
         category: "Men",
@@ -240,7 +247,7 @@ export const products = [
     {
         _id: "aaao",
         name: "Men winterwear simple",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 120,
         image: [p_img15],
         category: "Men",
@@ -252,7 +259,7 @@ export const products = [
     {
         _id: "aaap",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 95,
         image: [p_img16],
         category: "Women",
@@ -264,7 +271,7 @@ export const products = [
     {
         _id: "aaaq",
         name: "Kids Round Neck Cotton topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 85,
         image: [p_img17],
         category: "Kids",
@@ -276,7 +283,7 @@ export const products = [
     {
         _id: "aaar",
         name: "Men round neck topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 75,
         image: [p_img18],
         category: "Men",
@@ -288,7 +295,7 @@ export const products = [
     {
         _id: "aaas",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 65,
         image: [p_img19],
         category: "Women",
@@ -300,7 +307,7 @@ export const products = [
     {
         _id: "aaat",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 105,
         image: [p_img20],
         category: "Kids",
@@ -312,7 +319,7 @@ export const products = [
     {
         _id: "aaau",
         name: "Women Round Neck winter topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 115,
         image: [p_img21],
         category: "Women",
@@ -324,7 +331,7 @@ export const products = [
     {
         _id: "aaav",
         name: "Men bottomwear cotton pant",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 125,
         image: [p_img22],
         category: "Men",
@@ -336,7 +343,7 @@ export const products = [
     {
         _id: "aaaw",
         name: "Men round neck topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 135,
         image: [p_img23],
         category: "Men",
@@ -348,7 +355,7 @@ export const products = [
     {
         _id: "aaax",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 145,
         image: [p_img24],
         category: "Kids",
@@ -360,7 +367,7 @@ export const products = [
     {
         _id: "aaay",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 155,
         image: [p_img25],
         category: "Women",
@@ -372,7 +379,7 @@ export const products = [
     {
         _id: "aaaz",
         name: "Men round neck topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 57,
         image: [p_img26],
         category: "Men",
@@ -384,7 +391,7 @@ export const products = [
     {
         _id: "aaba",
         name: "Kids cotton bottomwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 62,
         image: [p_img27],
         category: "Kids",
@@ -396,7 +403,7 @@ export const products = [
     {
         _id: "aabb",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 78,
         image: [p_img28],
         category: "Women",
@@ -408,7 +415,7 @@ export const products = [
     {
         _id: "aabc",
         name: "Men round neck topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 84,
         image: [p_img29],
         category: "Men",
@@ -420,7 +427,7 @@ export const products = [
     {
         _id: "aabd",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 92,
         image: [p_img30],
         category: "Kids",
@@ -432,7 +439,7 @@ export const products = [
     {
         _id: "aabe",
         name: "Women cotton simple bottomwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 61,
         image: [p_img31],
         category: "Women",
@@ -444,7 +451,7 @@ export const products = [
     {
         _id: "aabf",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 103,
         image: [p_img32],
         category: "Kids",
@@ -456,7 +463,7 @@ export const products = [
     {
         _id: "aabg",
         name: "Men round neck topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 144,
         image: [p_img33],
         category: "Men",
@@ -468,7 +475,7 @@ export const products = [
     {
         _id: "aabh",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 69,
         image: [p_img34],
         category: "Kids",
@@ -480,7 +487,7 @@ export const products = [
     {
         _id: "aabi",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 137,
         image: [p_img35],
         category: "Kids",
@@ -492,7 +499,7 @@ export const products = [
     {
         _id: "aabj",
         name: "Men round neck topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 170,
         image: [p_img36],
         category: "Men",
@@ -504,7 +511,7 @@ export const products = [
     {
         _id: "aabk",
         name: "Women cotton simple bottomwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 89,
         image: [p_img37],
         category: "Women",
@@ -516,7 +523,7 @@ export const products = [
     {
         _id: "aabl",
         name: "Men simple top winterwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 119,
         image: [p_img38],
         category: "Men",
@@ -528,7 +535,7 @@ export const products = [
     {
         _id: "aabm",
         name: "Kids party topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 137,
         image: [p_img39],
         category: "Kids",
@@ -540,7 +547,7 @@ export const products = [
     {
         _id: "aabn",
         name: "Women cotton simple bottomwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 151,
         image: [p_img40],
         category: "Women",
@@ -552,7 +559,7 @@ export const products = [
     {
         _id: "aabo",
         name: "Men bottomwear cotton pant",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 123,
         image: [p_img41],
         category: "Men",
@@ -564,7 +571,7 @@ export const products = [
     {
         _id: "aabp",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 99,
         image: [p_img42],
         category: "Women",
@@ -576,7 +583,7 @@ export const products = [
     {
         _id: "aabq",
         name: "Men bottomwear cotton pant",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 101,
         image: [p_img43],
         category: "Men",
@@ -588,9 +595,9 @@ export const products = [
     {
         _id: "aabr",
         name: "Men round neck topwear",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with zip",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 149,
-        image: [p_img44],
+        image: [p_img44,p_img44_2,p_img44_3,p_img44_4],
         category: "Men",
         subCategory: "Topwear",
         sizes: ["S", "M", "L"],
