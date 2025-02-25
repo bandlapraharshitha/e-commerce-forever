@@ -12,6 +12,8 @@ import support_img from './support_img.png'
 import star_icon from './star_icon.png'
 import star_dull_icon from './star_dull_icon.png'
 import bin_icon from './bin_icon.png'
+import stripe_logo from './stripe_logo.png'
+import razorpay_logo from './razorpay_logo.png'
 import p_img1 from './p_img1.png'
 import p_img2 from './p_img2.png'
 import p_img3 from './p_img3.png'
@@ -74,7 +76,9 @@ export const assets = {
     support_img,
     star_icon,
     star_dull_icon,
-    bin_icon
+    bin_icon,
+    stripe_logo,
+    razorpay_logo
 }
 
 export const products = [
