@@ -9,3 +9,8 @@ const addProduct = async (req, res) => {
 const listProducts = async (req, res) => {
     
 }
+
+// function for remove product
+const removeProduct = async (req, res) => {
+    
+}
