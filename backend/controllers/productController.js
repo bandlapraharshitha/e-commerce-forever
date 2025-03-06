@@ -2,7 +2,11 @@
 
 // function for add product
 const addProduct = async (req, res) => {
-
+    try {
+        const {name,description,price,category,subcategory,sizes,bestseller} = req.body
+    } catch (error) {
+        
+    }
 }
 
 // function for list product
