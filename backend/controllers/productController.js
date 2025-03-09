@@ -4,7 +4,7 @@
 const addProduct = async (req, res) => {
     try {
         const {name,description,price,category,subcategory,sizes,bestseller} = req.body
-    } catch ( error ) {
+    } catch (error) {
         
     }
 }
