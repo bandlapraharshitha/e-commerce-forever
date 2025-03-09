@@ -8,6 +8,9 @@ const addProduct = async (req, res) => {
         const image2 = req.files.image2[0]
         const image3 = req.files.image3[0]
         const image4 = req.files.image4[0]
+
+        console.log(name,description,price,category,subcategory,sizes,bestseller);
+        
     } catch (error) {
         
     }
