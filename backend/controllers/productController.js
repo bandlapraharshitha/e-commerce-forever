@@ -11,7 +11,6 @@ const addProduct = async (req, res) => {
 
         console.log(name,description,price,category,subcategory,sizes,bestseller);
         console.log(image1,image2,image3,image4);
-        
         res.json({})
     } catch (error) {
         console.log(error);
