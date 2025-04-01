@@ -72,4 +72,4 @@ const adminLogin = async () => {
 
 }
 
-export {loginUser, registerUser, adminLogin}
+export { loginUser, registerUser, adminLogin }
