@@ -1,6 +1,5 @@
 import { assets } from "../assets/assets"
 
-
 const Footer = () => {
   return (
     <div>
